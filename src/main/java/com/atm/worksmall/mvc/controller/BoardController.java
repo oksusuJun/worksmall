@@ -73,7 +73,7 @@ public class BoardController {
         //modelAndView.setViewName("home");
 
         Map<String, Object> map = new HashMap<>();
-        map.put("name", "Bamdule");
+        map.put("name", "atoimo");
         map.put("date", LocalDateTime.now());
 
         modelAndView.addObject("data", map);
